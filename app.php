@@ -3,8 +3,9 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'a
 
 $app = new \Symfony\Component\Console\Application('name console');
 
-$app->add(new \App\Command2());
+$app->add(new \App\Command3());
 
+$app->run();
 try {
     $app->run();
 } catch (Exception $e) {

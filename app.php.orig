@@ -4,15 +4,14 @@ require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor' . DIRECTORY_SEPARATOR . 'a
 $app = new \Symfony\Component\Console\Application('name console');
 
 <<<<<<< HEAD
-$app->add(new \App\WhatName());
+$app->add(new \App\Command2());
 
 try {
     $app->run();
 } catch (Exception $e) {
 }
-
 =======
-$app->add(new \App\Command2());
+$app->add(new \App\Command3());
 
 $app->run();
->>>>>>> command2
+>>>>>>> command3
